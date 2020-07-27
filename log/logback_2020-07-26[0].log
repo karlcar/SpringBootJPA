@@ -1,0 +1,185 @@
+文件记录-2020-07-26 15:25:23 [restartedMain] INFO  springBoot.Application - Starting Application on LAPTOP-1QQRN8UB with PID 11300 (D:\JAVA\eclipse\File\SpringBootJPA\target\classes started by karlcar in D:\JAVA\eclipse\File\SpringBootJPA)
+文件记录-2020-07-26 15:25:23 [restartedMain] INFO  springBoot.Application - The following profiles are active: dev
+文件记录-2020-07-26 15:25:24 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63ef9e93: startup date [Sun Jul 26 15:25:24 CST 2020]; root of context hierarchy
+文件记录-2020-07-26 15:25:24 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3800ada2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+文件记录-2020-07-26 15:25:24 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+文件记录-2020-07-26 15:25:24 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+文件记录-2020-07-26 15:25:24 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+文件记录-2020-07-26 15:25:24 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+文件记录-2020-07-26 15:25:25 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+文件记录-2020-07-26 15:25:25 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+文件记录-2020-07-26 15:25:25 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+文件记录-2020-07-26 15:25:26 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+文件记录-2020-07-26 15:25:26 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+文件记录-2020-07-26 15:25:26 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+文件记录-2020-07-26 15:25:26 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2146 ms
+文件记录-2020-07-26 15:25:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+文件记录-2020-07-26 15:25:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+文件记录-2020-07-26 15:25:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+文件记录-2020-07-26 15:25:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+文件记录-2020-07-26 15:25:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+文件记录-2020-07-26 15:25:26 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+文件记录-2020-07-26 15:25:26 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+文件记录-2020-07-26 15:25:26 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+文件记录-2020-07-26 15:25:26 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+文件记录-2020-07-26 15:25:26 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.14.Final}
+文件记录-2020-07-26 15:25:26 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+文件记录-2020-07-26 15:25:26 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+文件记录-2020-07-26 15:25:26 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63ef9e93: startup date [Sun Jul 26 15:25:24 CST 2020]; root of context hierarchy
+文件记录-2020-07-26 15:25:27 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/getuser/{id}]}" onto public java.lang.Object springBoot.Application.getById(long)
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String springBoot.controller.UserController.index()
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/add]}" onto public java.lang.String springBoot.controller.UserController.add(springBoot.bean.User)
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/delete]}" onto public java.lang.String springBoot.controller.UserController.delete(java.lang.Long)
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/list]}" onto public java.lang.String springBoot.controller.UserController.list(org.springframework.ui.Model)
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/toEdit]}" onto public java.lang.String springBoot.controller.UserController.toEdit(org.springframework.ui.Model,java.lang.Long)
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/toAdd]}" onto public java.lang.String springBoot.controller.UserController.toadd(springBoot.bean.User)
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/edit]}" onto public java.lang.String springBoot.controller.UserController.edit(springBoot.bean.User)
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2020-07-26 15:25:27 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2020-07-26 15:25:27 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+文件记录-2020-07-26 15:25:28 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+文件记录-2020-07-26 15:25:28 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+文件记录-2020-07-26 15:25:28 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+文件记录-2020-07-26 15:25:28 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+文件记录-2020-07-26 15:25:28 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+文件记录-2020-07-26 15:25:28 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+文件记录-2020-07-26 15:25:28 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+文件记录-2020-07-26 15:25:28 [restartedMain] INFO  springBoot.Application - Started Application in 4.364 seconds (JVM running for 5.115)
+文件记录-2020-07-26 15:26:25 [Thread-7] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63ef9e93: startup date [Sun Jul 26 15:25:24 CST 2020]; root of context hierarchy
+文件记录-2020-07-26 15:26:25 [Thread-7] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+文件记录-2020-07-26 15:26:25 [Thread-7] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+文件记录-2020-07-26 15:26:25 [Thread-7] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+文件记录-2020-07-26 15:26:25 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+文件记录-2020-07-26 15:26:25 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  springBoot.Application - Starting Application on LAPTOP-1QQRN8UB with PID 11300 (D:\JAVA\eclipse\File\SpringBootJPA\target\classes started by karlcar in D:\JAVA\eclipse\File\SpringBootJPA)
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  springBoot.Application - The following profiles are active: dev
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@470d3ff9: startup date [Sun Jul 26 15:26:25 CST 2020]; root of context hierarchy
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3800ada2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+文件记录-2020-07-26 15:26:25 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+文件记录-2020-07-26 15:26:25 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+文件记录-2020-07-26 15:26:25 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+文件记录-2020-07-26 15:26:25 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+文件记录-2020-07-26 15:26:25 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+文件记录-2020-07-26 15:26:25 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+文件记录-2020-07-26 15:26:25 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 305 ms
+文件记录-2020-07-26 15:26:25 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+文件记录-2020-07-26 15:26:25 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+文件记录-2020-07-26 15:26:25 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+文件记录-2020-07-26 15:26:25 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+文件记录-2020-07-26 15:26:25 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+文件记录-2020-07-26 15:26:25 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@470d3ff9: startup date [Sun Jul 26 15:26:25 CST 2020]; root of context hierarchy
+文件记录-2020-07-26 15:26:26 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/getuser/{id}]}" onto public java.lang.Object springBoot.Application.getById(long)
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String springBoot.controller.UserController.index()
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/add]}" onto public java.lang.String springBoot.controller.UserController.add(springBoot.bean.User)
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/delete]}" onto public java.lang.String springBoot.controller.UserController.delete(java.lang.Long)
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/list]}" onto public java.lang.String springBoot.controller.UserController.list(org.springframework.ui.Model)
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/toEdit]}" onto public java.lang.String springBoot.controller.UserController.toEdit(org.springframework.ui.Model,java.lang.Long)
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/toAdd]}" onto public java.lang.String springBoot.controller.UserController.toadd(springBoot.bean.User)
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/edit]}" onto public java.lang.String springBoot.controller.UserController.edit(springBoot.bean.User)
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+文件记录-2020-07-26 15:26:26 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  springBoot.Application - Started Application in 0.97 seconds (JVM running for 63.416)
+文件记录-2020-07-26 15:26:26 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+文件记录-2020-07-26 15:26:37 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+文件记录-2020-07-26 15:26:37 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+文件记录-2020-07-26 15:26:37 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+文件记录-2020-07-26 15:26:37 [http-nio-8081-exec-1] INFO  springBoot.aspect.LogAspect - ---------doBefore-------------
+文件记录-2020-07-26 15:26:37 [http-nio-8081-exec-1] INFO  springBoot.aspect.LogAspect - Request : RequestLog [url=http://localhost:8081/toEdit, ip=0:0:0:0:0:0:0:1, classMethod=springBoot.controller.UserController.toEdit, args=[{}, 34]]
+文件记录-2020-07-26 15:26:37 [http-nio-8081-exec-1] INFO  springBoot.aspect.LogAspect - ---------doAfter-------------
+文件记录-2020-07-26 15:26:37 [http-nio-8081-exec-1] INFO  springBoot.aspect.LogAspect - Result : user/userEdit
+文件记录-2020-07-26 15:26:42 [http-nio-8081-exec-2] INFO  springBoot.aspect.LogAspect - ---------doBefore-------------
+文件记录-2020-07-26 15:26:42 [http-nio-8081-exec-2] INFO  springBoot.aspect.LogAspect - Request : RequestLog [url=http://localhost:8081/edit, ip=0:0:0:0:0:0:0:1, classMethod=springBoot.controller.UserController.edit, args=[User [id=34, password=1122334455, userName=王五, age=45]]]
+文件记录-2020-07-26 15:26:42 [http-nio-8081-exec-2] INFO  springBoot.aspect.LogAspect - ---------doAfter-------------
+文件记录-2020-07-26 15:26:42 [http-nio-8081-exec-2] INFO  springBoot.aspect.LogAspect - Result : redirect:/list
+文件记录-2020-07-26 15:26:42 [http-nio-8081-exec-3] INFO  springBoot.aspect.LogAspect - ---------doBefore-------------
+文件记录-2020-07-26 15:26:42 [http-nio-8081-exec-3] INFO  springBoot.aspect.LogAspect - Request : RequestLog [url=http://localhost:8081/list, ip=0:0:0:0:0:0:0:1, classMethod=springBoot.controller.UserController.list, args=[{}]]
+文件记录-2020-07-26 15:26:42 [http-nio-8081-exec-3] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+文件记录-2020-07-26 15:26:42 [http-nio-8081-exec-3] INFO  springBoot.aspect.LogAspect - ---------doAfter-------------
+文件记录-2020-07-26 15:26:42 [http-nio-8081-exec-3] INFO  springBoot.aspect.LogAspect - Result : user/list
+文件记录-2020-07-26 15:28:33 [Thread-11] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@470d3ff9: startup date [Sun Jul 26 15:26:25 CST 2020]; root of context hierarchy
+文件记录-2020-07-26 15:28:33 [Thread-11] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+文件记录-2020-07-26 15:28:33 [Thread-11] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+文件记录-2020-07-26 15:28:33 [Thread-11] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+文件记录-2020-07-26 15:28:33 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+文件记录-2020-07-26 15:28:33 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+文件记录-2020-07-26 15:28:33 [restartedMain] INFO  springBoot.Application - Starting Application on LAPTOP-1QQRN8UB with PID 11300 (D:\JAVA\eclipse\File\SpringBootJPA\target\classes started by karlcar in D:\JAVA\eclipse\File\SpringBootJPA)
+文件记录-2020-07-26 15:28:33 [restartedMain] INFO  springBoot.Application - The following profiles are active: master
+文件记录-2020-07-26 15:28:33 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@74aa9daf: startup date [Sun Jul 26 15:28:33 CST 2020]; root of context hierarchy
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3800ada2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+文件记录-2020-07-26 15:28:34 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+文件记录-2020-07-26 15:28:34 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+文件记录-2020-07-26 15:28:34 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+文件记录-2020-07-26 15:28:34 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+文件记录-2020-07-26 15:28:34 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+文件记录-2020-07-26 15:28:34 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+文件记录-2020-07-26 15:28:34 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 332 ms
+文件记录-2020-07-26 15:28:34 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+文件记录-2020-07-26 15:28:34 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+文件记录-2020-07-26 15:28:34 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+文件记录-2020-07-26 15:28:34 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+文件记录-2020-07-26 15:28:34 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@74aa9daf: startup date [Sun Jul 26 15:28:33 CST 2020]; root of context hierarchy
+文件记录-2020-07-26 15:28:34 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/getuser/{id}]}" onto public java.lang.Object springBoot.Application.getById(long)
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String springBoot.controller.UserController.index()
+文件记录-2020-07-26 15:28:34 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/add]}" onto public java.lang.String springBoot.controller.UserController.add(springBoot.bean.User)
+文件记录-2020-07-26 16:07:19 [restartedMain] INFO  springBoot.Application - Starting Application on LAPTOP-1QQRN8UB with PID 4776 (D:\JAVA\eclipse\File\SpringBootJPA\target\classes started by karlcar in D:\JAVA\eclipse\File\SpringBootJPA)
+文件记录-2020-07-26 16:07:19 [restartedMain] INFO  springBoot.Application - The following profiles are active: master
+文件记录-2020-07-26 16:07:19 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5452942b: startup date [Sun Jul 26 16:07:19 CST 2020]; root of context hierarchy
+文件记录-2020-07-26 16:07:19 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aa4f6392] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+文件记录-2020-07-26 16:08:10 [restartedMain] INFO  springBoot.Application - Starting Application on LAPTOP-1QQRN8UB with PID 13848 (D:\JAVA\eclipse\File\SpringBootJPA\target\classes started by karlcar in D:\JAVA\eclipse\File\SpringBootJPA)
+文件记录-2020-07-26 16:08:10 [restartedMain] INFO  springBoot.Application - The following profiles are active: master
+文件记录-2020-07-26 16:08:10 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15635e99: startup date [Sun Jul 26 16:08:10 CST 2020]; root of context hierarchy
+文件记录-2020-07-26 16:08:11 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd7158bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+文件记录-2020-07-26 16:09:01 [restartedMain] INFO  springBoot.Application - Starting Application on LAPTOP-1QQRN8UB with PID 12592 (D:\JAVA\eclipse\File\SpringBootJPA\target\classes started by karlcar in D:\JAVA\eclipse\File\SpringBootJPA)
+文件记录-2020-07-26 16:09:01 [restartedMain] INFO  springBoot.Application - The following profiles are active: dev
+文件记录-2020-07-26 16:09:01 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@187720b: startup date [Sun Jul 26 16:09:01 CST 2020]; root of context hierarchy
+文件记录-2020-07-26 16:09:02 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$53cbae30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+文件记录-2020-07-26 17:14:48 [restartedMain] INFO  springBoot.Application - Starting Application on LAPTOP-1QQRN8UB with PID 3400 (D:\JAVA\eclipse\File\SpringBootJPA\target\classes started by karlcar in D:\JAVA\eclipse\File\SpringBootJPA)
+文件记录-2020-07-26 17:14:48 [restartedMain] INFO  springBoot.Application - The following profiles are active: dev
+文件记录-2020-07-26 17:14:48 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3405f857: startup date [Sun Jul 26 17:14:48 CST 2020]; root of context hierarchy
+文件记录-2020-07-26 17:14:48 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ec9c133b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)

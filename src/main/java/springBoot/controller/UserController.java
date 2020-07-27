@@ -3,6 +3,7 @@ package springBoot.controller;
 import java.util.List;
 
 import javax.annotation.Resource;
+import javax.validation.Valid;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,9 +11,11 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import springBoot.bean.User;
+import springBoot.bean.UserQuery;
 import springBoot.service.UserService;
 
 @Controller
@@ -21,55 +24,46 @@ public class UserController {
     private UserService userService;
     @RequestMapping("/")
     public String index(){
-        return "redirect:/list"; //重定向到 /list
+        return "redirect:/list"; 
     }
-    
-//    @GetMapping("/query")
-//    public  Page<User> findByPage(Integer page , HttpServletResponse response){
-//        response.setHeader("Access-Control-Allow-Origin","*"); //解决跨域请求
-//        if(page==null||page<=0){
-//            page=0;
-//        }else{
-//            page-=1;
-//        }
-//        return  userService.findAll(page,5);
-//    }
-   
 
-
-    @GetMapping("/list")
-    public String lsit(Model model){
+    @RequestMapping("/list")
+    public String list(Model model){
         List<User> users = userService.getUserList();
         model.addAttribute("users",users);
         return "user/list"; 
-    }
+    } 
 
     @RequestMapping("/toAdd")
     public String toadd(User user){
-        return "user/userAdd";//跳转到userAdd.html
+        return "user/userAdd";
     }
 
     @RequestMapping("/add")
-    public String add(User user){
+    public String add(@Valid User user){
         userService.save(user);
-        return "redirect:/list";//添加完成，请求重定向到/list
+        return "redirect:/list";
     }
 
     @RequestMapping("/toEdit")
     public String toEdit(Model model,Long id){
         User user = userService.findUserById(id);
         model.addAttribute("user",user);
-        return "user/userEdit"; //跳转到userEdit.html页面
+        return "user/userEdit"; 
     }
-    @PutMapping("/edit")
+    @RequestMapping("/edit")
     public String edit(User user){
         userService.edit(user);
-        return "redirect:/list";//获取列表数据并显示
+        return "redirect:/list";
     }
 
-    @DeleteMapping("/delete")
-    public String edit(Long id){
+    @RequestMapping("/delete")
+    public String delete(Long id){
         userService.delete(id);
         return "redirect:/list";
     }
+    
+
+    
+    
 }

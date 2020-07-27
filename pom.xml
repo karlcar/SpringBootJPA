@@ -16,7 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-	</properties>
+	</properties> 
 
 	<dependencies>
 		<dependency>
@@ -59,26 +59,67 @@
 			<artifactId>unbescape</artifactId>
 			<version>1.1.5.RELEASE</version>
 		</dependency>
-		<!-- 加载mybatis整合springboot -->
 		<dependency>
-			<groupId>org.mybatis.spring.boot</groupId>
-			<artifactId>mybatis-spring-boot-starter</artifactId>
-			<version>1.3.0</version>
-		</dependency>
-		<!-- springboot集成redis -->
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.2.3</version>
+        </dependency>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-redis</artifactId>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+        
+        <!-- <dependency>  
+		  <groupId>org.slf4j</groupId> 
+		  <artifactId>slf4j-nop</artifactId> 
+		  <version>1.7.2</version> 
+		</dependency>  -->
+		<dependency>
+		     <groupId>org.springframework.boot</groupId>
+		     <artifactId>spring-boot-starter-web</artifactId>
+		     <exclusions>
+		          <exclusion>
+		               <groupId>org.slf4j</groupId>
+		               <artifactId>slf4j-log4j12</artifactId>
+		          </exclusion>
+		     </exclusions>
 		</dependency>
+		<dependency>
+		    <groupId>com.101tec</groupId>
+		    <artifactId>zkclient</artifactId>
+		    <version>0.10</version>
+		    <exclusions>
+		        <exclusion>
+		            <artifactId>slf4j-log4j12</artifactId>
+		        </exclusion>
+		    </exclusions>
+		</dependency>
+
 		<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-        <!-- data for restful -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-rest</artifactId>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>2.0.1.Final</version>
         </dependency>
+        <!-- hibernate validator-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>5.2.0.Final</version>
+        </dependency>
+        <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>

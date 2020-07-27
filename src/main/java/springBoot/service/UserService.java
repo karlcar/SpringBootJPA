@@ -6,6 +6,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 import springBoot.bean.User;
+import springBoot.bean.UserQuery;
 
 
 public interface UserService {
@@ -20,11 +21,6 @@ public interface UserService {
 	
 	public void delete(long id);
 	
-	/**
-     * 分页查询所有数据
-     * @param page //当前页
-     * @param pageSize //每页记录数
-     * @return
-     */
-	//Page<User> findAll(int page,int pageSize);
+//	public List<User> findByUserName(String username);
+	
 }

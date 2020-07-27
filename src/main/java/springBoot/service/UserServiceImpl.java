@@ -1,14 +1,18 @@
-package springBoot.service;
+ package springBoot.service;
 
 import java.util.List;
+
+import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import springBoot.bean.User;
+import springBoot.bean.UserQuery;
 import springBoot.repository.UserRepository;
 
 
@@ -27,32 +31,29 @@ public class UserServiceImpl implements UserService {
         return userRepository.findById(id);
     }
 
+//	@Override
+//	public List<User> findByUserName(String userName) {
+//		return userRepository.findByQuery(userName);
+//	}
+
+	@Transactional
     @Override
     public void save(User user) {
         userRepository.save(user);
     }
-
+    
+    @Transactional
     @Override
     public void edit(User user) {
         userRepository.save(user);
     }
-
+    
+    @Transactional
     @Override
     public void delete(long id) {
         userRepository.deleteById(id);
     }
 
-//    @Override
-//    public Page<User> findAll(int page,int pageSize) {
-//       Pageable pageable= PageRequest.of(page,pageSize);
-//       return userRepository.findAll(pageable);
-//
-//    }
     
-   
-
-
-	
-
-
+    
 }

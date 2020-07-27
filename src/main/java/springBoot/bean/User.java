@@ -5,19 +5,22 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 @Entity
 public class User {
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
-    @Column(nullable = false)
+	
+	@NotBlank(message = "密码不能为空")
+    @Column
     private String password;
     //name="username" 设置userName属性映射到数据库的username字段，而不是默认的user_name
     @Column(name = "username", nullable = true, unique = true)
     private String userName;
-
+    
     @Column(nullable = true, unique = true)
     private int age;
 
